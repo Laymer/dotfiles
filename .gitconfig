@@ -1,0 +1,21 @@
+[user]
+	name = Juan-Pablo Scaletti
+	email = juanpablo@jpscaletti.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[guitool "Rebase onto..."]
+    cmd = git rebase $REVISION
+    revprompt = yes
+[guitool "Rebase/Continue"]
+    cmd = git rebase --continue
+[guitool "Rebase/Skip"]
+    cmd = git rebase --skip
+[guitool "Rebase/Abort"]
+    cmd = git rebase --abort
+[guitool "Pull with Rebase"]
+    cmd = git pull --rebase
+[core]
+	excludesfile = ~/.gitignore

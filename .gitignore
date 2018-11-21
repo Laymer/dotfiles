@@ -1,0 +1,13 @@
+.DS_Store
+*/.DS_Store
+
+*.sublime-*
+*.code-*
+.vscode
+.elixir_ls
+
+*.pyc
+.pytest_cache
+
+/node_modules/
+yarn-error.log
