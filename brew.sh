@@ -33,8 +33,8 @@ brew install youtube-dl
 brew cask install 1password
 brew cask install dropbox
 
-brew cask install android-sdk
-brew cask install homebrew/cask-versions/java8
+# brew cask install android-sdk
+# brew cask install homebrew/cask-versions/java8
 
 # brew cask install db-browser-for-sqlite
 # brew cask install firefox

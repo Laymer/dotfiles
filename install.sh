@@ -18,7 +18,9 @@ function installPython() {
 }
 
 function installJS() {
-	git clone http://github.com/creationix/nvm.git ~/.nvm
+	if [ ! -d "$HOME/.nvm" ]; then
+		git clone http://github.com/creationix/nvm.git ~/.nvm
+	fi
 }
 
 function run() {
