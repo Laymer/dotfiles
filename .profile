@@ -7,7 +7,7 @@ export PATH="$PATH:/usr/local/opt/coreutils/libexec/gnubin"
 # export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # Load the shell dotfiles
-for file in ~/.{exports,aliases,python_venvs}; do
+for file in ~/.{exports,aliases}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;

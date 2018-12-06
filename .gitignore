@@ -8,7 +8,8 @@
 
 *.pyc
 .pytest_cache
+.eggs
+*.egg-info
 
-node_modules/
-venv/
+/node_modules/
 yarn-error.log
