@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 
 alias ..="cd .."
+
 # Recursively delete `.DS_Store` files
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+alias cleanup_ds_store="find . -type f -name '*.DS_Store' -ls -delete"
+# Recursively delete `__pycache__` folders
+alias cleanup_pycache="find . -type d -name __pycache__ -exec rm -r {} \+"
+# Recursively delete all noise files
+alias cleanup="cleanup_ds_store && cleanup_pycache"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -17,6 +22,10 @@ fi
 alias lsl="pwd && ls -laGh"
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
+
+# Python
+alias activate="source .venv/bin/activate"
+alias mkenv="python -m venv .venv && activate"
 
 # Ruby
 alias be="bundle exec"
