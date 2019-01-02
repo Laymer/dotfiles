@@ -21,9 +21,9 @@ brew install openssl
 brew install node
 brew install readline
 brew install p7zip
+brew install pipenv
 brew install postgresql
 brew install pyenv
-brew install pyenv-virtualenv
 brew install rbenv
 brew install unrar
 brew install tree
