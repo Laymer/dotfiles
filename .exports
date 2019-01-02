@@ -14,6 +14,7 @@ export NODE_PATH=$NODE_PATH:`npm root -g`
 
 #----- Python -----#
 eval "$(pyenv init -)"
+export PIPENV_VENV_IN_PROJECT=1
 
 # Disable the PIN for accesing the Werkzeug debugger.
 # Forking Patreon devs
