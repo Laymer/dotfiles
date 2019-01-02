@@ -15,7 +15,10 @@ function copyAll() {
 function installPython() {
 	echo "==> Python <=="
 	
-	pip3 install ipython
+	eval "$(pyenv init -)"
+	pyenv install 3.7.1
+	pip3 install -U pip
+	pip3 install ipython pipenv
 }
 
 function installJS() {
