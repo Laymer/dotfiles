@@ -10,12 +10,12 @@ function copyAll() {
 		--exclude "install.sh" \
 		--exclude "README.md" \
 		-avh --no-perms . ~;
+	source $HOME/.profile
 }
 
 function installPython() {
 	echo "==> Python <=="
-	
-	eval "$(pyenv init -)"
+
 	pyenv install 3.7.1
 	pip3 install -U pip
 	pip3 install ipython pipenv
@@ -24,7 +24,7 @@ function installPython() {
 function installJS() {
 	echo "==> JavaScript <=="
 
-	if [ ! -d "$HOME/.nvm" ]; then
+	if [ ! -d $NVM_DIR ]; then
 		git clone http://github.com/creationix/nvm.git ~/.nvm
 	fi
 }
