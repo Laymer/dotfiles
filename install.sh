@@ -2,6 +2,7 @@
 # Copy everything to $HOME
 
 function copyAll() {
+	echo "==> Copy All <=="
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude "macos.sh" \
@@ -12,12 +13,14 @@ function copyAll() {
 }
 
 function installPython() {
-	source .python_venvs
-	mkdir "$WORKON_HOME"
+	echo "==> Python <=="
+	
 	pip3 install ipython
 }
 
 function installJS() {
+	echo "==> JavaScript <=="
+
 	if [ ! -d "$HOME/.nvm" ]; then
 		git clone http://github.com/creationix/nvm.git ~/.nvm
 	fi

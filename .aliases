@@ -25,7 +25,7 @@ alias l="ls -lF ${colorflag}"
 
 # Python
 alias activate="source .venv/bin/activate"
-alias mkenv="python -m venv .venv && activate"
+alias mkenv="python -m venv .venv && activate && pip install -U pip"
 
 # Ruby
 alias be="bundle exec"

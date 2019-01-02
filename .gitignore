@@ -12,6 +12,8 @@
 dist/
 build/
 .venv
+.coverage
+coverage_report
 
 node_modules
 yarn-error.log
