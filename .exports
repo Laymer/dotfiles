@@ -10,6 +10,7 @@ export EDITOR="code --wait"
 # nvm
 export NVM_DIR="$HOME/.nvm"
 . "$NVM_DIR/nvm.sh"
+export NODE_PATH=$NODE_PATH:`npm root -g`
 
 # rbenv
 # eval "$(rbenv init -)"
@@ -22,8 +23,8 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 export WERKZEUG_DEBUG_PIN=off
 
 # Android
-export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
-export ANDROID_HOME="/usr/local/Caskroom/android-sdk/4333796"
-export PATH="$PATH:$ANDROID_HOME/tools"
-export PATH="$PATH:$ANDROID_HOME/tools/bin"
-export PATH="$PATH:$ANDROID_HOME/platform-tools"
+# export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
+# export ANDROID_HOME="/usr/local/Caskroom/android-sdk/4333796"
+# export PATH="$PATH:$ANDROID_HOME/tools"
+# export PATH="$PATH:$ANDROID_HOME/tools/bin"
+# export PATH="$PATH:$ANDROID_HOME/platform-tools"
