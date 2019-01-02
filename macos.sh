@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+xcode-select --install
 
 # Save to disk (not to iCloud) by default
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false

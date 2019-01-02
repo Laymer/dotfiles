@@ -1,5 +1,4 @@
 .DS_Store
-*/.DS_Store
 
 *.sublime-*
 *.code-*
@@ -8,6 +7,11 @@
 
 *.pyc
 .pytest_cache
+.eggs
+*.egg-info
+dist/
+build/
+.venv
 
-/node_modules/
+node_modules
 yarn-error.log

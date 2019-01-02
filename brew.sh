@@ -22,13 +22,15 @@ brew install node
 brew install readline
 brew install p7zip
 brew install postgresql
-brew install python3
+brew install pyenv
+brew install pyenv-virtualenv
 brew install rbenv
 brew install unrar
 brew install tree
 brew install wget
 brew install yarn
 brew install youtube-dl
+brew install zlib
 
 brew cask install 1password
 brew cask install dropbox
