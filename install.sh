@@ -10,22 +10,24 @@ function copyAll() {
 		--exclude "install.sh" \
 		--exclude "README.md" \
 		-avh --no-perms . ~;
-	source $HOME/.profile
+	source ~/.profile;
 }
 
 function installPython() {
 	echo "==> Python <=="
 
 	pyenv install 3.7.1
+	pyenv global 3.7.1
 	pip3 install -U pip
 	pip3 install ipython pipenv
+	pyenv rehash
 }
 
 function installJS() {
 	echo "==> JavaScript <=="
 
 	if [ ! -d $NVM_DIR ]; then
-		git clone http://github.com/creationix/nvm.git ~/.nvm
+		git clone http://github.com/creationix/nvm.git $NVM_DIR
 	fi
 }
 
@@ -36,8 +38,6 @@ function run() {
 	
 	installPython
 	installJS
-	
-	source ~/.profile;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
