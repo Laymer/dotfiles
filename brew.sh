@@ -12,6 +12,7 @@ brew upgrade
 brew tap caskroom/cask
 brew tap homebrew/cask-fonts
 
+brew install bash
 brew install coreutils
 brew install elixir
 brew install gcc
