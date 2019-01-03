@@ -13,12 +13,11 @@ export NVM_DIR="$HOME/.nvm"
 export NODE_PATH=$NODE_PATH:`npm root -g`
 
 #----- Python -----#
+# pyenv
 eval "$(pyenv init -)"
-# For pyenv
 export LDFLAGS="-L/usr/local/opt/zlib/lib"
 export CPPFLAGS="-I/usr/local/opt/zlib/include"
 
-export PIPENV_VENV_IN_PROJECT=1
 # Disable the PIN for accesing the Werkzeug debugger.
 export WERKZEUG_DEBUG_PIN=off
 

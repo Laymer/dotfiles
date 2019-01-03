@@ -20,8 +20,9 @@ function installPython() {
 	pyenv global 3.7.1
 	pip3 install -U pip
 	pip3 install ipython
-	curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 	pyenv rehash
+	curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
+	poetry config settings.virtualenvs.in-project true
 }
 
 function installJS() {
