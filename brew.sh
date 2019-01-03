@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Install command-line tools using Homebrew.
+echo "==> Homebrew <=="
 
 if ! type "brew" > /dev/null; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -16,12 +17,11 @@ brew install elixir
 brew install gcc
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install openssl
 brew install node
 brew install readline
 brew install p7zip
-brew install pipenv
 brew install postgresql
 brew install pyenv
 brew install rbenv
@@ -32,8 +32,8 @@ brew install yarn
 brew install youtube-dl
 brew install zlib
 
-brew cask install 1password
-brew cask install dropbox
+# brew cask install 1password
+# brew cask install dropbox
 
 # brew cask install android-sdk
 # brew cask install homebrew/cask-versions/java8

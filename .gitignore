@@ -7,10 +7,14 @@
 
 .elixir_ls
 
+*.egg-info
 *.pyc
+.coverage
 .pytest_cache
 .venv/*
-*.egg-info
+build/
+dist/
+coverage_report
 
 /node_modules/
 yarn-error.log

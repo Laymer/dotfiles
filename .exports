@@ -4,20 +4,19 @@
 export LANG="en_US.UTF-8";
 export LC_ALL="en_US.UTF-8";
 
-# Make Visual Studio Code the default editor.
+# Make Sublime Text the default editor.
 export EDITOR="subl --wait"
 
 #----- JavaScript -----#
 export NVM_DIR="$HOME/.nvm"
+mkdir NVM_DIR
 . "$NVM_DIR/nvm.sh"
 export NODE_PATH=$NODE_PATH:`npm root -g`
 
 #----- Python -----#
 eval "$(pyenv init -)"
 export PIPENV_VENV_IN_PROJECT=1
-
 # Disable the PIN for accesing the Werkzeug debugger.
-# Forking Patreon devs
 export WERKZEUG_DEBUG_PIN=off
 
 #----- Ruby -----#

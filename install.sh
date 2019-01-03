@@ -2,6 +2,7 @@
 # Copy everything to $HOME
 
 function copyAll() {
+	echo "==> Copy All <=="
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude "macos.sh" \
@@ -9,16 +10,21 @@ function copyAll() {
 		--exclude "install.sh" \
 		--exclude "README.md" \
 		-avh --no-perms . ~;
+	source $HOME/.profile
 }
 
 function installPython() {
-	source .python_venvs
-	mkdir "$WORKON_HOME"
-	pip3 install ipython
+	echo "==> Python <=="
+
+	pyenv install 3.7.1
+	pip3 install -U pip
+	pip3 install ipython pipenv
 }
 
 function installJS() {
-	if [ ! -d "$HOME/.nvm" ]; then
+	echo "==> JavaScript <=="
+
+	if [ ! -d $NVM_DIR ]; then
 		git clone http://github.com/creationix/nvm.git ~/.nvm
 	fi
 }
