@@ -25,11 +25,7 @@ alias l="ls -lF ${colorflag}"
 
 # Python
 alias activate="source .venv/bin/activate"
-<<<<<<< HEAD
-alias mkenv="python -m venv .venv && activate"
-=======
 alias mkenv="python -m venv .venv && activate && pip install -U pip"
->>>>>>> 5c427814fa530cacf5a2b8254cfdf03ad7fff826
 alias pr="pipenv run"
 alias prp="pipenv run python"
 

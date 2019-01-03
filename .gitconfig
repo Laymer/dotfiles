@@ -5,6 +5,8 @@
 	excludesfile = ~/.gitignore
 [color]
 	ui = auto
+[branch "master"]
+	rebase = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
