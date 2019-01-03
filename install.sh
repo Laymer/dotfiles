@@ -19,7 +19,8 @@ function installPython() {
 	pyenv install 3.7.1
 	pyenv global 3.7.1
 	pip3 install -U pip
-	pip3 install ipython pipenv
+	pip3 install ipython
+	curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 	pyenv rehash
 }
 
@@ -43,9 +44,9 @@ function run() {
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	run;
 else
-	read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1;
+	read -p "This may overwrite existing files in your home directory. Are you sure? (Y/n) " -n 1;
 	echo "";
-	if [[ $REPLY =~ ^[Yy]$ ]]; then
+	if [[ $REPLY =~ ^[Yy]?$ ]]; then
 		run;
 	fi;
 fi;
