@@ -1,17 +1,16 @@
 .DS_Store
+*/.DS_Store
 
 *.sublime-*
 *.code-*
 .vscode
+
 .elixir_ls
 
 *.pyc
 .pytest_cache
-.eggs
+.venv/*
 *.egg-info
-dist/
-build/
-.venv
 
-node_modules
+/node_modules/
 yarn-error.log
