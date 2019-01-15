@@ -22,7 +22,7 @@ export CPPFLAGS="-I/usr/local/opt/zlib/include"
 export WERKZEUG_DEBUG_PIN=off
 
 #----- Ruby -----#
-# eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
 #----- Elixir -----#
 # remember iex history
