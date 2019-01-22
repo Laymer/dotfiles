@@ -1,3 +1,4 @@
-# jpscaletti dotfiles
+# JPScaletti dotfiles
 
-Your dotfiles are how you personalize your system. These are mine.
+Your dotfiles are how you personalize your system.
+These are mine.

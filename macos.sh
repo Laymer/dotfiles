@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# NOTE: I'm not sure if all of these are valid anymore
 echo "==> MacOS <=="
 
 xcode-select --install

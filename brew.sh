@@ -56,9 +56,7 @@ brew install zlib
 # brew cask install transmit
 # brew cask install transmission
 # brew cask install twist
-# brew cask install typora
 # brew cask install vlc
-# brew cask install vscode
 # brew cask install waterfox
 
 brew cleanup
