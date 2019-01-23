@@ -1,7 +1,8 @@
 .DS_Store
 */.DS_Store
 
-*.sublime-*
+*.sublime-project
+*.sublime-workspace
 *.code-*
 .vscode
 
