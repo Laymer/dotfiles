@@ -36,6 +36,10 @@ macos:
 brew:
 	./brew.sh
 
+update-sublime:
+	cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.sublime-settings sublime/
+	cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.sublime-snippet sublime/
+
 install:
 	make copy
 	make macos
