@@ -1,0 +1,16 @@
+// SublimeLinter Settings - User
+{
+	"linters": {
+        // The name of the linter you installed
+        "flake8": {
+            
+            // Additional arguments for the command line. Either a string
+            // or an array. If set to a string, we 'shlex.split' it*.
+            // E.g. '--ignore D112' or ['--config', './.config/foo.ini']
+            //
+            // * Note: Use proper quoting around paths esp. on Windows!
+            "args": "--config=${folder}/setup.cfg",
+            "python": "/Users/jps/.pyenv/shims/python"
+       }
+   }
+}

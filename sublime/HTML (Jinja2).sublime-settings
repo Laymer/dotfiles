@@ -1,0 +1,8 @@
+{
+	"extensions":
+	[
+		"jinja",
+		"html"
+	],
+	"tab_size": 2
+}

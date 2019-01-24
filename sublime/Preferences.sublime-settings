@@ -1,0 +1,48 @@
+{
+	"binary_file_patterns":
+	[
+		"*.code-workspace",
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		".tox/**",
+		".vscode/**",
+		"/Users/jps/Projects/ABLE/sr-independencia/node_modules/**",
+		"/Users/jps/Projects/central/.vscode/**",
+		"/Users/jps/Projects/jpscaletti/node_modules/**",
+		"/Users/jps/Projects/pipes/.venv/**",
+		"__pycache__/**"
+	],
+	"copy_with_empty_selection": false,
+	"dpi_scale": 1.1,
+	"drag_text": false,
+	"find_selected_text": false,
+	"font_face": "Fira Code",
+	"font_size": 15,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"RestructuredText",
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+		88
+	],
+	"scroll_past_end": true,
+	"shift_tab_unindent": true,
+	"tab_size": 4,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": false
+}

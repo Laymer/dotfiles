@@ -1,0 +1,11 @@
+{
+	"extensions":
+	[
+		".eslintrc",
+		".babelrc",
+		".stylelintrc",
+		".prettierrc",
+		"js"
+	],
+	"rulers": [88, 100],
+}
