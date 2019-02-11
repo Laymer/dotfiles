@@ -15,7 +15,8 @@
 .venv/*
 build/
 dist/
-coverage_report
+htmlcov
+pip-wheel-metadata
 
 /node_modules/
 yarn-error.log
