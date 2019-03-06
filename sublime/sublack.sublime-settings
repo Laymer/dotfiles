@@ -1,3 +1,5 @@
 {
-	"black_on_save": false
+	"black_on_save": false,
+	"black_py36": true,
+	"black_command": "/Users/jps/.pyenv/shims/black"
 }

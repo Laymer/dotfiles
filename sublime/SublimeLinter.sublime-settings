@@ -9,8 +9,8 @@
             // E.g. '--ignore D112' or ['--config', './.config/foo.ini']
             //
             // * Note: Use proper quoting around paths esp. on Windows!
-            "args": "--config=${folder}/setup.cfg",
-            "python": "/Users/jps/.pyenv/shims/python"
+            "args": "--config=./setup.cfg",
+            "python": "${folder}/.venv/bin/python"
        }
    }
 }

@@ -18,9 +18,12 @@
 		".tox/**",
 		".vscode/**",
 		"/Users/jps/Projects/ABLE/sr-independencia/node_modules/**",
+		"/Users/jps/Projects/_ABLE/sr-independencia/node_modules/**",
 		"/Users/jps/Projects/central/.vscode/**",
 		"/Users/jps/Projects/jpscaletti/node_modules/**",
 		"/Users/jps/Projects/pipes/.venv/**",
+		"/Users/jps/Projects/proper/.venv/**",
+		"/Users/jps/Projects/shelfie/.venv/**",
 		"__pycache__/**"
 	],
 	"copy_with_empty_selection": false,
@@ -28,7 +31,7 @@
 	"drag_text": false,
 	"find_selected_text": false,
 	"font_face": "Fira Code",
-	"font_size": 15,
+	"font_size": 14,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
