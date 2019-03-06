@@ -10,7 +10,6 @@ export EDITOR="subl --wait"
 #----- JavaScript -----#
 export NVM_DIR="$HOME/.nvm"
 . "$NVM_DIR/nvm.sh"
-export NODE_PATH=$NODE_PATH:`npm root -g`
 
 #----- Python -----#
 # pyenv
