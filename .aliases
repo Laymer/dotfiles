@@ -23,6 +23,10 @@ alias lsl="pwd && ls -laGh"
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
 
+# Git
+alias gs="git status"
+alias gp="git pull"
+
 # Python
 alias on="source .venv/bin/activate"
 alias off="deactivate"
