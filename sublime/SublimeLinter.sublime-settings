@@ -9,7 +9,10 @@
             // E.g. '--ignore D112' or ['--config', './.config/foo.ini']
             //
             // * Note: Use proper quoting around paths esp. on Windows!
-            "args": "--config=./setup.cfg",
+            "args": [
+                "--config=./setup.cfg",
+                "--ignore=W503,E203,D100,D101,D102,D103,D104,D105,D106",
+            ],
             "python": "${folder}/.venv/bin/python"
        }
    }
