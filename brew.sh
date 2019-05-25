@@ -14,14 +14,16 @@ brew tap homebrew/cask-fonts
 
 brew install bash
 brew install coreutils
-brew install elixir
+brew install readline
+brew install rmtrash
 brew install gcc
 brew install git
-brew install git-lfs
-brew install imagemagick
 brew install openssl
+brew install git-lfs
+brew install zlib
+brew install imagemagick
+brew install elixir
 brew install node
-brew install readline
 brew install p7zip
 brew install postgresql
 brew install pyenv
@@ -31,7 +33,6 @@ brew install tree
 brew install wget
 brew install yarn
 brew install youtube-dl
-brew install zlib
 
 # brew cask install 1password
 # brew cask install dropbox

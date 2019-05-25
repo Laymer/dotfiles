@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 alias ..="cd .."
+# Never lose a file by mistake
+alias rm=rmtrash
 
 # Recursively delete `.DS_Store` files
 alias cleanup_ds_store="find . -type f -name '*.DS_Store' -ls -delete"
